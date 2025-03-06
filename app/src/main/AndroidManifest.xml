@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.example.sensorrecorderapp">
+
+<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:largeHeap="true"
+    android:roundIcon="@mipmap/ic_launcher_round"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.SensorRecorderApp">
+
+    <activity
+        android:name=".ForgotPasswordActivity"
+        android:exported="false"
+        android:parentActivityName=".LoginActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.sensorrecorderapp.LoginActivity" />
+    </activity>
+    <activity
+        android:name=".LoginActivity"
+        android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name=".RegisterActivity"
+        android:exported="false"
+        android:parentActivityName=".LoginActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.sensorrecorderapp.LoginActivity" />
+    </activity>
+    <activity
+        android:name=".MainActivity"
+        android:exported="true">
+    </activity>
+    <activity
+        android:name=".GraphActivity"
+        android:exported="true"
+        android:parentActivityName=".MainActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.sensorrecorderapp.MainActivity" />
+    </activity>
+
+    <meta-data
+        android:name="preloaded_fonts"
+        android:resource="@array/preloaded_fonts" />
+</application>
+</manifest>

@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SensorRecorderApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/dark_mode_Text_Main</item>
+        <item name="colorPrimaryDark">@color/dark_mode_Text_Main</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.SensorRecorderApp" parent="Base.Theme.SensorRecorderApp" />
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "269945239848",
+    "project_id": "sensorrecorderuserdata",
+    "storage_bucket": "sensorrecorderuserdata.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269945239848:android:1ed37f0c167c6f3648381d",
+        "android_client_info": {
+          "package_name": "com.example.sensorrecorderapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsSiOwRqr0D810taXS1nb1GKi9QWNdFio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
